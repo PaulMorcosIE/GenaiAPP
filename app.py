@@ -9,7 +9,7 @@ import streamlit as st
 from azure_openai_utils import get_client, load_config, chat_completion
 from azure_speech_utils import text_to_speech, speech_to_text
 
-cfg = load_config("GenAISetup3.json")
+cfg = load_config("GenAISetup4.json")
 CLIENT = get_client()
 
 st.set_page_config(page_title="Chat with Voice", layout="centered")
